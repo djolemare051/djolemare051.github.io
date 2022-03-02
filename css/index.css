@@ -6,7 +6,17 @@
     font-family: "Mulish";
 
 
-    -webkit-user-drag: none;
+    -webkit-user-drag: none; 
+    /* Safari */
+    -khtml-user-drag: none; 
+    /* Konqueror HTML */
+    -moz-user-drag: none;
+    /* Firefox */
+    -ms-user-drag: none;
+    /* Internet Explorer/Edge */
+    -o-user-drag: none;
+    /* Opera */
+
     user-select: none;
     /* supported by Chrome and Opera */
     -webkit-user-select: none;
@@ -17,6 +27,8 @@
     /* Firefox */
     -ms-user-select: none;
     /* Internet Explorer/Edge */
+    -o-user-select: none;
+    /* Opera */
 }
 
 body {
