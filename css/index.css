@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+header {
+    position: absolute;
+    width: 100vw;
+}
+
+.header_icons_container {
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+}
+
+.header_icon_container {
+    width: 4%;
+}
+
+.header_icon {
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    background-color: black;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.section02 {
+    background-color: rgb(90, 90, 90);
+}
+
+.section03 {
+    background-color: black;
+}
+
+.wave01 {
+    position: absolute;
+}
+
+.triangle_transition{
+    background: linear-gradient(to right, green 0%, green 80%, red 80%, red 100%);    width: 100%;
+    height: inherit;
+    position: absolute;
+}
+
+.triangle_transition01{
+    clip-path: polygon(0 75%, 0% 100%, 100% 100%);
+    /* background-color: rgb(90, 90, 90); */
+}
+
+.triangle_transition02{
+    clip-path: polygon(0 75%, 0% 100%, 100% 100%);
+    background-color: black;
+}
+
+.triangle_transition03{
+    clip-path: polygon(0 50%, 100% 75%, 100% 100%, 0% 100%);
+    background-color: rgb(90, 90, 90);
+}
+
+p{
+    color: white;
+    width: 100%;
+}
