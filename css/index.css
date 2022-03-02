@@ -2,14 +2,13 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    z-index: 1;
 }
 
-body{
+body {
     overflow-x: hidden;
-}
-
-p{
-    font-family: "Mulish", "Space Mono";
+    font-family: "Mulish";
+    color: white;
 }
 
 header {
@@ -21,7 +20,7 @@ header {
     margin: 1%;
     display: flex;
     justify-content: center;
-    gap: 3%;
+    gap: 7%;
 }
 
 .header_icon_container {
@@ -35,29 +34,68 @@ header {
     transition-duration: 0.5s;
 }
 
-.header_icon:hover{
-    transform: rotate(25deg);
+.header_icon:hover {
+    transform: rotate(20deg);
 }
 
-section{
+section {
     background-color: rgb(255, 0, 0);
     height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr;
-}
-
-.section01 {
-    background-color: black;
 }
 
 .section02 {
-    background-color: rgb(90, 90, 90);
+    background-color: gray;
 }
 
 .section03 {
     background-color: black;
 }
 
+
+
+.section01 {
+    background-color: black;
+}
+
 .wave01 {
     position: absolute;
+    bottom: 0;
+    z-index: 0;
+}
+
+.hero_text_container {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+.hero_text_main_container {
+    margin-bottom: 5px;
+}
+
+.hero_text_main {
+    font-size: 95px;
+}
+
+.hero_text_secondary {
+    font-size: 25px;
+    font-family: monospace;
+}
+
+.rotate_right{
+    transition-duration: 0.5s;
+}
+.rotate_right:hover{
+    transform: rotate(5deg);
+}
+
+.rotate_left{
+    transition-duration: 0.5s;
+}
+.rotate_left:hover{
+    transform: rotate(-5deg);
+}
+
+p:hover {
+    cursor: default;
 }
