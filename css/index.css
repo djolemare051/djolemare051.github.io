@@ -1,14 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    z-index: 1;
+    z-index: 2;
     text-decoration: none;
     font-family: "Mulish";
 
 
-    -webkit-user-drag: none; 
+    -webkit-user-drag: none;
     /* Safari */
-    -khtml-user-drag: none; 
+    -khtml-user-drag: none;
     /* Konqueror HTML */
     -moz-user-drag: none;
     /* Firefox */
@@ -43,20 +43,20 @@ body {
 
 header {
     position: absolute;
-    z-index: 2;
-    width: 100%;
+    z-index: 3;
+    width: 100vw;
 }
 
 .header_icons_container {
-    margin-top: 20px;
+    margin-top: 1vw;
     display: flex;
     justify-content: center;
-    gap: 90px;
+    gap: 6vw;
 }
 
 .header_icon {
-    width: 70px;
-    height: 70px;
+    width: 5vw;
+    height: 5vw;
 }
 
 .section03 {
@@ -64,12 +64,11 @@ header {
     height: 100vh;
 }
 
-
 /* SECTION01 */
 
 .section01 {
     background-color: rgb(0, 0, 0);
-    height: 100vh;
+    height: 50vw;
     display: flex;
 }
 
@@ -81,44 +80,55 @@ header {
 
 .hero_text_container {
     position: absolute;
-    left: 40%;
-    top: 30%;
+    left: 40vw;
+    top: 19vw;
 }
 
 .hero_text_main_container {
-    margin-bottom: 5px;
+    margin-bottom: 1vw;
 }
 
 .hero_text_main {
-    font-size: 95px;
+    font-size: 5.75vw;
 }
 
 .hero_text_secondary {
-    font-size: 25px;
+    font-size: 1.5vw;
     font-family: monospace;
 }
 
 .dick01 {
     position: absolute;
-    width: 650px;
-    z-index: 3;
+    width: 40vw;
+    z-index: 2;
 }
 
 .button_container {
+    text-align: center;
+    width: 100vw;
+
     position: absolute;
-    width: 100%;
-    bottom: 10px;
-    display: flex;
-    justify-content: center;
+    top: 47vw;
+
+    z-index: 3;
 }
 
 .buy_button {
     border: none;
     border-radius: 100px;
 
-    font-size: 30px;
-    width: 400px;
-    height: 80px;
+    font-size: 2vw;
+    width: 20vw;
+    height: 5vw;
+}
+
+.buy_button_img {
+    width: 2vw;
+    margin-right: 1vw;
+}
+
+.buy_button_text {
+    display: inline;
 }
 
 /* SECTION02 */
@@ -127,15 +137,16 @@ header {
     background-color: gray;
     height: 100vh;
     display: flex;
+    height: 50vw;
 }
 
-.wave02{
+.wave02 {
     display: block;
     align-self: flex-start;
-    z-index: 0;
+    z-index: 1;
 }
 
-/* ROTATION ANIMATIONS */
+/* ANIMATIONS */
 
 .rotate_right_medium {
     transition-duration: 0.5s;
@@ -178,3 +189,25 @@ header {
 .scale_up_small:hover {
     transform: scale(1.1);
 }
+
+/* COMPLEX ANIMATIONS */
+
+.swing_animation_small {
+    animation-name: swing;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes swing {
+    0% {
+        transform: rotate(-1deg);
+    }
+
+    100% {
+        transform: rotate(1deg);
+    }
+}
+
+@media (max-aspect-ratio: 1920/1080) {}
