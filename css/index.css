@@ -51,6 +51,47 @@ header {
     width: 100vw;
 }
 
+
+.discord{
+    content:url("../svg/discord_normal.svg");
+}
+.discord:hover{
+    content:url("../svg/discord_hover.svg");
+}
+.discord:active{
+    content:url("../svg/discord_normal.svg");
+}
+
+.opensea{
+    content:url("../svg/opensea_normal.svg");
+}
+.opensea:hover{
+    content:url("../svg/opensea_hover.svg");
+}
+.opensea:active{
+    content:url("../svg/opensea_normal.svg");
+}
+
+.twitter{
+    content:url("../svg/twitter_normal.svg");
+}
+.twitter:hover{
+    content:url("../svg/twitter_hover.svg");
+}
+.twitter:active{
+    content:url("../svg/twitter_normal.svg");
+}
+
+.buy_button{
+    content: url("../svg/buyButton_normal.svg");
+}
+.buy_button:hover{
+    content:url("../svg/buyButton_hover.svg");
+}
+.buy_button:active{
+    content:url("../svg/buyButton_normal.svg");
+}
+
 .header_icons_container {
     margin-top: 1vw;
     display: flex;
@@ -174,7 +215,6 @@ header {
 }
 
 .rotate_right_small:hover {
-    transition-duration: 0.5s;
     transform: rotate(5deg);
 }
 
