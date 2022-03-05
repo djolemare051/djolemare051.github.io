@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    z-index: 2;
+    z-index: 3;
     text-decoration: none;
     font-family: "Mulish";
 
@@ -31,7 +31,7 @@
     /* Opera */
 }
 
-.non_draggable{
+.non_draggable {
     pointer-events: none;
 }
 
@@ -45,51 +45,14 @@ body {
     display: grid;
 }
 
+section {
+    z-index: 0;
+}
+
 header {
     position: absolute;
     z-index: 3;
     width: 100vw;
-}
-
-
-.discord{
-    content:url("../svg/discord_normal.svg");
-}
-.discord:hover{
-    content:url("../svg/discord_hover.svg");
-}
-.discord:active{
-    content:url("../svg/discord_normal.svg");
-}
-
-.opensea{
-    content:url("../svg/opensea_normal.svg");
-}
-.opensea:hover{
-    content:url("../svg/opensea_hover.svg");
-}
-.opensea:active{
-    content:url("../svg/opensea_normal.svg");
-}
-
-.twitter{
-    content:url("../svg/twitter_normal.svg");
-}
-.twitter:hover{
-    content:url("../svg/twitter_hover.svg");
-}
-.twitter:active{
-    content:url("../svg/twitter_normal.svg");
-}
-
-.buy_button{
-    content: url("../svg/buyButton_normal.svg");
-}
-.buy_button:hover{
-    content:url("../svg/buyButton_hover.svg");
-}
-.buy_button:active{
-    content:url("../svg/buyButton_normal.svg");
 }
 
 .header_icons_container {
@@ -104,16 +67,61 @@ header {
     height: 5vw;
 }
 
-.section03 {
-    background-color: black;
-    height: 100vh;
+
+.discord {
+    content: url("../svg/icon_discord_normal.svg");
+}
+
+.discord:hover {
+    content: url("../svg/icon_discord_hover.svg");
+}
+
+.discord:active {
+    content: url("../svg/icon_discord_normal.svg");
+}
+
+.opensea {
+    content: url("../svg/icon_opensea_normal.svg");
+}
+
+.opensea:hover {
+    content: url("../svg/icon_opensea_hover.svg");
+}
+
+.opensea:active {
+    content: url("../svg/icon_opensea_normal.svg");
+}
+
+.twitter {
+    content: url("../svg/icon_twitter_normal.svg");
+}
+
+.twitter:hover {
+    content: url("../svg/icon_twitter_hover.svg");
+}
+
+.twitter:active {
+    content: url("../svg/icon_twitter_normal.svg");
+}
+
+.buy_button {
+    content: url("../svg/icon_buyButton_normal.svg");
+}
+
+.buy_button:hover {
+    content: url("../svg/icon_buyButton_hover.svg");
+}
+
+.buy_button:active {
+    content: url("../svg/icon_buyButton_normal.svg");
 }
 
 /* SECTION01 */
 
 .section01 {
-    background-color: rgb(0, 0, 0);
+    background-image: url("../svg/bg_purple.svg");
     height: 50vw;
+    background-size: cover;
     display: flex;
 }
 
@@ -123,10 +131,33 @@ header {
     z-index: 0;
 }
 
+.lollipop {
+    position: absolute;
+    z-index: 10;
+    width: 25vw;
+    left: 70vw;
+    top: 35vw;
+}
+
+.marshmallow {
+    position: absolute;
+    z-index: 3;
+    top: 25vw;
+}
+
+.marshmallow01 {
+    background-color: black;
+    top: 25vw;
+}
+
+.marshmallow02 {
+    top: 80vw;
+}
+
 .hero_text_container {
     position: absolute;
     left: 40vw;
-    top: 19vw;
+    top: 15vw;
 }
 
 .hero_text_main_container {
@@ -140,12 +171,19 @@ header {
 .hero_text_secondary {
     font-size: 1.5vw;
     font-family: monospace;
+    font-weight: bold;
+}
+
+.hair {
+    position: absolute;
+    width: 25vw;
+    z-index: 10;
 }
 
 .dick01 {
     position: absolute;
     width: 33vw;
-    z-index: 4;
+    z-index: 5;
 }
 
 .button_container {
@@ -179,16 +217,24 @@ header {
 /* SECTION02 */
 
 .section02 {
-    background-color: gray;
-    height: 100vh;
+    background-image: url("../svg/bg_green.svg");
+    background-size: cover;
     display: flex;
-    height: 50vw;
+    height: 60vw;
 }
 
 .wave02 {
     display: block;
     align-self: flex-start;
     z-index: 1;
+}
+
+/* SECTION03 */
+
+.section03 {
+    background-image: url("../svg/bg_yellow.svg");
+    background-size: cover;
+    height: 60vw;
 }
 
 /* ANIMATIONS */
