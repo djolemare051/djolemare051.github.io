@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    z-index: 3;
     text-decoration: none;
     font-family: "Mulish";
 
@@ -31,9 +30,6 @@
     /* Opera */
 }
 
-.non_draggable {
-    pointer-events: none;
-}
 
 body {
     color: white;
@@ -41,18 +37,14 @@ body {
 }
 
 .container {
-    z-index: 0;
     display: grid;
-}
-
-section {
-    z-index: 0;
 }
 
 header {
     position: absolute;
     z-index: 3;
     width: 100vw;
+    background-color: aqua;
 }
 
 .header_icons_container {
@@ -67,15 +59,12 @@ header {
     height: 5vw;
 }
 
-
 .discord {
     content: url("../svg/icon_discord_normal.svg");
 }
-
 .discord:hover {
     content: url("../svg/icon_discord_hover.svg");
 }
-
 .discord:active {
     content: url("../svg/icon_discord_normal.svg");
 }
@@ -83,11 +72,9 @@ header {
 .opensea {
     content: url("../svg/icon_opensea_normal.svg");
 }
-
 .opensea:hover {
     content: url("../svg/icon_opensea_hover.svg");
 }
-
 .opensea:active {
     content: url("../svg/icon_opensea_normal.svg");
 }
@@ -95,11 +82,9 @@ header {
 .twitter {
     content: url("../svg/icon_twitter_normal.svg");
 }
-
 .twitter:hover {
     content: url("../svg/icon_twitter_hover.svg");
 }
-
 .twitter:active {
     content: url("../svg/icon_twitter_normal.svg");
 }
@@ -107,11 +92,9 @@ header {
 .buy_button {
     content: url("../svg/icon_buyButton_normal.svg");
 }
-
 .buy_button:hover {
     content: url("../svg/icon_buyButton_hover.svg");
 }
-
 .buy_button:active {
     content: url("../svg/icon_buyButton_normal.svg");
 }
@@ -192,8 +175,6 @@ header {
 
     position: absolute;
     top: 47vw;
-
-    z-index: 3;
 }
 
 .buy_button {
@@ -235,6 +216,12 @@ header {
     background-image: url("../svg/bg_yellow.svg");
     background-size: cover;
     height: 60vw;
+}
+
+/* EFFECTS */
+
+.non_draggable {
+    pointer-events: none;
 }
 
 /* ANIMATIONS */
