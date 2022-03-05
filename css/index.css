@@ -2,8 +2,6 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
-    font-family: "Mulish";
-
 
     -webkit-user-drag: none;
     /* Safari */
@@ -30,7 +28,6 @@
     /* Opera */
 }
 
-
 body {
     color: white;
     overflow-x: hidden;
@@ -40,11 +37,12 @@ body {
     display: grid;
 }
 
+
+/* HEADER */
+
 header {
     position: absolute;
-    z-index: 3;
     width: 100vw;
-    background-color: aqua;
 }
 
 .header_icons_container {
@@ -108,91 +106,46 @@ header {
     display: flex;
 }
 
-.wave01 {
-    display: block;
-    align-self: flex-end;
-    z-index: 0;
-}
-
-.lollipop {
-    position: absolute;
-    z-index: 10;
-    width: 25vw;
-    left: 70vw;
-    top: 35vw;
-}
-
-.marshmallow {
-    position: absolute;
-    z-index: 3;
-    top: 25vw;
-}
-
-.marshmallow01 {
-    background-color: black;
-    top: 25vw;
-}
-
-.marshmallow02 {
-    top: 80vw;
-}
-
-.hero_text_container {
+.text01 {
     position: absolute;
     left: 40vw;
     top: 15vw;
 }
 
-.hero_text_main_container {
-    margin-bottom: 1vw;
-}
-
-.hero_text_main {
-    font-size: 5.75vw;
-}
-
-.hero_text_secondary {
-    font-size: 1.5vw;
-    font-family: monospace;
-    font-weight: bold;
+.lollipop {
+    position: absolute;
+    width: 25vw;
+    left: 70vw;
+    top: 35vw;
 }
 
 .hair {
     position: absolute;
     width: 25vw;
-    z-index: 10;
 }
 
 .dick01 {
     position: absolute;
     width: 33vw;
-    z-index: 5;
 }
 
 .button_container {
+    position: absolute;
     text-align: center;
     width: 100vw;
-
-    position: absolute;
     top: 47vw;
 }
 
 .buy_button {
-    border: none;
-    border-radius: 100px;
-
-    font-size: 2vw;
     width: 20vw;
     height: 5vw;
 }
 
-.buy_button_img {
-    width: 2vw;
-    margin-right: 1vw;
-}
+/* BETWEEN */
 
-.buy_button_text {
-    display: inline;
+.marshmallow01 {
+    position: absolute;
+    top: 25vw;
 }
 
 /* SECTION02 */
@@ -204,10 +157,17 @@ header {
     height: 60vw;
 }
 
-.wave02 {
-    display: block;
-    align-self: flex-start;
-    z-index: 1;
+.text02{
+    position: absolute;
+    left: 50vw;
+    top: 70vw;
+}
+
+/* BETWEEN */
+
+.marshmallow02 {
+    position: absolute;
+    top: 80vw;
 }
 
 /* SECTION03 */
@@ -215,13 +175,13 @@ header {
 .section03 {
     background-image: url("../svg/bg_yellow.svg");
     background-size: cover;
-    height: 60vw;
+    height: 55vw;
 }
 
-/* EFFECTS */
-
-.non_draggable {
-    pointer-events: none;
+.text03{
+    position: absolute;
+    left: 60vw;
+    top: 130vw;
 }
 
 /* ANIMATIONS */
@@ -281,10 +241,59 @@ header {
     0% {
         transform: rotate(-1deg);
     }
-
+    
     100% {
         transform: rotate(1deg);
     }
 }
 
-@media (max-aspect-ratio: 1920/1080) {}
+/* EFFECTS */
+
+.title {
+    font-size: 5.75vw;
+    font-family: "Mulish";
+}
+
+.subtitle {
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.non_draggable {
+    pointer-events: none;
+}
+
+.z0{
+    z-index: 0;
+}
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+.z4{
+    z-index: 4;
+}
+.z5{
+    z-index: 5;
+}
+.z6{
+    z-index: 6;
+}
+.z7{
+    z-index: 7;
+}
+.z8{
+    z-index: 8;
+}
+.z9{
+    z-index: 9;
+}
+.z10{
+    z-index: 10;
+}
