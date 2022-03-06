@@ -100,9 +100,10 @@ header {
 /* SECTION01 */
 
 .section01 {
-    background-image: url("../svg/bg_purple.svg");
+    background-image: url("../svg/img_dots.svg");
+    background-color: #C8BEFA;
+    background-size: 18vw;
     height: 50vw;
-    background-size: cover;
     display: flex;
 }
 
@@ -151,10 +152,11 @@ header {
 /* SECTION02 */
 
 .section02 {
-    background-image: url("../svg/bg_green.svg");
-    background-size: cover;
-    display: flex;
+    background-image: url("../svg/img_dots.svg");
+    background-color: #AAE6D2;
+    background-size: 18vw;
     height: 60vw;
+    display: flex;
 }
 
 .text02{
@@ -173,9 +175,11 @@ header {
 /* SECTION03 */
 
 .section03 {
-    background-image: url("../svg/bg_yellow.svg");
-    background-size: cover;
+    background-image: url("../svg/img_dots.svg");
+    background-color: #FADCB4;
+    background-size: 18vw;
     height: 55vw;
+    display: flex;
 }
 
 .text03{
