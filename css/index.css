@@ -103,8 +103,9 @@ header {
     background-image: url("../svg/img_dots.svg");
     background-color: #C8BEFA;
     background-size: 18vw;
+
     height: 50vw;
-    display: flex;
+    width: 100vw;
 }
 
 .text01 {
@@ -123,11 +124,15 @@ header {
 .hair {
     position: absolute;
     width: 25vw;
+    left: -0.4vw;
+    top: -0.1vw;
 }
 
 .dick01 {
     position: absolute;
     width: 33vw;
+    left: -1vw;
+    transform-origin: 35% 15%;
 }
 
 .button_container {
@@ -223,19 +228,36 @@ header {
     transform: rotate(-5deg);
 }
 
+.rotate_right_micro {
+    transition-duration: 0.5s;
+}
+
+.rotate_right_micro:hover {
+    transform: rotate(2.5deg);
+}
+
+.rotate_left_micro {
+    transition-duration: 0.5s;
+}
+
+.rotate_left_micro:hover {
+    transform: rotate(-2.5deg);
+}
+
+
 .scale_up_small {
     transition-duration: 0.5s;
 }
 
 .scale_up_small:hover {
-    transform: scale(1.1);
+    transform: scale(1.025);
 }
 
 /* COMPLEX ANIMATIONS */
 
 .swing_animation_small {
     animation-name: swing;
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-timing-function: ease-in-out;
     animation-direction: alternate;
     animation-iteration-count: infinite;
@@ -251,14 +273,30 @@ header {
     }
 }
 
+.moveY_animation_small {
+    animation-name: moveY;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes moveY {
+    100% {
+        transform: translateY(-0.2vw);
+    }
+}
+
 /* EFFECTS */
 
 .title {
+    display: inline-block;
     font-size: 5.75vw;
     font-family: "Mulish";
 }
 
 .subtitle {
+    display: inline-block;
     font-size: 1.5vw;
     font-family: monospace;
     font-weight: bold;
