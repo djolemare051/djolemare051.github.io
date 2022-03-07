@@ -31,6 +31,10 @@
 body {
     color: white;
     overflow-x: hidden;
+
+    background-color: #FADCB4;
+    background-image: url("../svg/img_dots.png");
+    background-size: 18vw;
 }
 
 .container {
@@ -200,15 +204,6 @@ header {
 
 /* SECTION03 */
 
-.section03 {
-    background-image: url("../svg/img_dots.png");
-    background-color: #FADCB4;
-    background-size: 18vw;
-    height: 55vw;
-    display: flex;
-}
-
- 
 .text03{
     position: absolute;
     left: 45vw;
@@ -318,7 +313,6 @@ header {
 }
 
 .subtitle {
-    display: inline-block;
     font-size: 1.5vw;
     font-family: monospace;
     font-weight: bold;
