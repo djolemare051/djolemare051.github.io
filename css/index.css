@@ -97,7 +97,7 @@ header {
 /* SECTION01 */
 
 .section01 {
-    background-image: url("../svg/img_dots.svg");
+    background-image: url("../svg/img_dots.png");
     background-color: #C8BEFA;
     background-size: 18vw;
 
@@ -168,7 +168,7 @@ header {
 
 .marshmallow_dots{
     position: absolute;
-    background-image: url("../svg/img_dots.svg");
+    background-image: url("../svg/img_dots.png");
     background-size: 18.58vw;
     mask-image: url("../svg/img_marshmallow_back.svg");
 }
@@ -185,7 +185,7 @@ header {
 /* SECTION02 */
 
 .section02 {
-    background-image: url("../svg/img_dots.svg");
+    background-image: url("../svg/img_dots.png");
     background-color: #AAE6D2;
     background-size: 18vw;
     height: 60vw;
@@ -201,7 +201,7 @@ header {
 /* SECTION03 */
 
 .section03 {
-    background-image: url("../svg/img_dots.svg");
+    background-image: url("../svg/img_dots.png");
     background-color: #FADCB4;
     background-size: 18vw;
     height: 55vw;
