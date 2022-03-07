@@ -166,12 +166,15 @@ header {
     transform: rotate(180deg);
 }
 
-.marshmallow_front{
+.marshmallow_dots{
     position: absolute;
-    width: 100vw;
     background-image: url("../svg/img_dots.svg");
     background-size: 18.58vw;
     mask-image: url("../svg/img_marshmallow_back.svg");
+}
+.marshmallow_front{
+    position: absolute;
+    width: 100vw;
 }
 .marshamllow_back{
     position: absolute;
@@ -207,8 +210,9 @@ header {
 
 .text03{
     position: absolute;
-    left: 60vw;
-    top: 130vw;
+    left: 45vw;
+    top: 125vw;
+    text-align: center;
 }
 
 /* ANIMATIONS */
