@@ -44,14 +44,12 @@ header {
     position: absolute;
     width: 100vw;
 }
-
 .header_icons_container {
     margin-top: 1vw;
     display: flex;
     justify-content: center;
     gap: 6vw;
 }
-
 .header_icon {
     width: 5vw;
     height: 5vw;
@@ -149,9 +147,23 @@ header {
 
 /* BETWEEN */
 
-.marshmallow01 {
+.marshmallow_full{
+    width: 100vw;
     position: absolute;
-    top: 25vw;
+}
+
+.marshmallow_top {
+}
+.marshmallow_bottom{
+    position: absolute;
+    transform: rotate(180deg);
+}
+
+.marshmallow_front{
+    position: absolute;
+}
+.marshamllow_back{
+    position: absolute;
 }
 
 /* SECTION02 */
@@ -168,13 +180,6 @@ header {
     position: absolute;
     left: 50vw;
     top: 70vw;
-}
-
-/* BETWEEN */
-
-.marshmallow02 {
-    position: absolute;
-    top: 80vw;
 }
 
 /* SECTION03 */
@@ -243,7 +248,6 @@ header {
 .rotate_left_micro:hover {
     transform: rotate(-2.5deg);
 }
-
 
 .scale_up_small {
     transition-duration: 0.5s;
