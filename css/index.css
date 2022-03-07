@@ -138,11 +138,19 @@ footer{
 
 .marshmallow_full01{
     position: absolute;
-    top: 28vw;
+    top: -60vh;
 }
 .marshmallow_full02{
     position: absolute;
+    top: 28vw;
+}
+.marshmallow_full03{
+    position: absolute;
     top: 84vw;
+}
+.marshmallow_full04{
+    position: absolute;
+    top: 140vw;
 }
 
 .marshmallow_top {
@@ -224,6 +232,18 @@ footer{
     transform: rotate(-60deg);
     left: -5vw;
     top: 159vw;
+}
+
+.condom06{
+    transform: rotate(50deg);
+    left: 85vw;
+    top: -10vw;
+}
+
+.condom07{
+    transform: rotate(0deg);
+    left: -6vw;
+    top: 42vw;
 }
 
 /* SECTION01 */
