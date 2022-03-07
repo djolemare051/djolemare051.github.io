@@ -31,10 +31,10 @@
 body {
     color: white;
     overflow-x: hidden;
-
+    
     background-color: #FADCB4;
     background-image: url("../svg/img_dots.png");
-    background-size: 18vw;
+    background-size: 18.29vw;
 }
 
 .container {
@@ -47,15 +47,13 @@ header {
     position: absolute;
     width: 100vw;
 }
-.header_icons_container {
-    margin-top: 1vw;
+.nav_icons_container {
     display: flex;
     justify-content: center;
-    gap: 6vw;
+    gap: 4vw;
 }
-.header_icon {
-    width: 5vw;
-    height: 5vw;
+.nav_icon {
+    width: 6vw;
 }
 
 .discord {
@@ -68,16 +66,6 @@ header {
     content: url("../svg/icon_discord_normal.svg");
 }
 
-.opensea {
-    content: url("../svg/icon_opensea_normal.svg");
-}
-.opensea:hover {
-    content: url("../svg/icon_opensea_hover.svg");
-}
-.opensea:active {
-    content: url("../svg/icon_opensea_normal.svg");
-}
-
 .twitter {
     content: url("../svg/icon_twitter_normal.svg");
 }
@@ -86,6 +74,16 @@ header {
 }
 .twitter:active {
     content: url("../svg/icon_twitter_normal.svg");
+}
+
+.opensea {
+    content: url("../svg/icon_opensea_normal.svg");
+}
+.opensea:hover {
+    content: url("../svg/icon_opensea_hover.svg");
+}
+.opensea:active {
+    content: url("../svg/icon_opensea_normal.svg");
 }
 
 .buy_button {
@@ -98,65 +96,53 @@ header {
     content: url("../svg/icon_buyButton_normal.svg");
 }
 
-/* SECTION01 */
+/* FOOTER */
 
-.section01 {
-    background-image: url("../svg/img_dots.png");
-    background-color: #C8BEFA;
-    background-size: 18vw;
-
-    height: 50vw;
+footer{
+    position: absolute;
     width: 100vw;
+    top: 163vw;
 }
 
-.text01 {
-    position: absolute;
-    left: 40vw;
-    top: 15vw;
+.discord_yellow {
+    content: url("../svg/icon_discord_yellow_normal.svg");
+}
+.discord_yellow:hover {
+    content: url("../svg/icon_discord_yellow_hover.svg");
+}
+.discord_yellow:active {
+    content: url("../svg/icon_discord_yellow_normal.svg");
 }
 
-.lollipop {
-    position: absolute;
-    width: 25vw;
-    left: 70vw;
-    top: 35vw;
+.twitter_yellow {
+    content: url("../svg/icon_twitter_yellow_normal.svg");
+}
+.twitter_yellow:hover {
+    content: url("../svg/icon_twitter_yellow_hover.svg");
+}
+.twitter_yellow:active {
+    content: url("../svg/icon_twitter_yellow_normal.svg");
 }
 
-.hair {
-    position: absolute;
-    width: 25vw;
-    left: -0.4vw;
-    top: -0.1vw;
+.opensea_yellow {
+    content: url("../svg/icon_opensea_yellow_normal.svg");
 }
-
-.dick01 {
-    position: absolute;
-    width: 33vw;
-    left: -1vw;
-    transform-origin: 35% 15%;
+.opensea_yellow:hover {
+    content: url("../svg/icon_opensea_yellow_hover.svg");
 }
-
-.button_container {
-    position: absolute;
-    text-align: center;
-    width: 100vw;
-    top: 47vw;
-}
-
-.buy_button {
-    width: 20vw;
-    height: 5vw;
+.opensea_yellow:active {
+    content: url("../svg/icon_opensea_yellow_normal.svg");
 }
 
 /* BETWEEN */
 
 .marshmallow_full01{
     position: absolute;
-    top: 25vw;
+    top: 28vw;
 }
 .marshmallow_full02{
     position: absolute;
-    top: 82vw;
+    top: 84vw;
 }
 
 .marshmallow_top {
@@ -186,20 +172,122 @@ header {
     background-size: 18vw;
 } 
 
+.logo01{
+    position: absolute;
+    top: 51vw;
+    left: 0.5vw;
+    width: 23vw;
+}
+
+.logo02{
+    position: absolute;
+    top: 106vw;
+    left: 0.5vw;
+    width: 23vw;
+}
+
+.logo03{
+    position: absolute;
+    top: 164vw;
+    left: 0.5vw;
+    width: 23vw;
+}
+
+.condom{
+    position: absolute;
+    width: 23vw;
+}
+
+.condom01{
+    left: 1vw;
+}
+
+.condom02{
+    transform: rotate(-30deg);
+    right: -5vw;
+    top: 105vw;
+}
+
+.condom03{
+    transform: rotate(-10deg);
+    left: 86vw;
+    top: 140vw;
+}
+
+.condom04{
+    transform: rotate(40deg);
+    left: 77vw;
+    top: 150vw;
+}
+
+.condom05{
+    transform: rotate(-60deg);
+    left: -5vw;
+    top: 159vw;
+}
+
+/* SECTION01 */
+
+
+.section01 {
+    background-image: url("../svg/img_dots.png");
+    background-color: #C8BEFA;
+    background-size: 18vw;
+    height: 57vw;
+    display: flex;
+}
+
+.text01 {
+    position: absolute;
+    left: 40vw;
+    top: 18vw;
+}
+
+.hair {
+    position: absolute;
+    width: 28vw;
+    left: -0.4vw;
+    top: -0.1vw;
+}
+
+.dick01 {
+    position: absolute;
+    width: 37vw;
+    left: -1vw;
+    transform-origin: 35% 15%;
+}
+
+.lollipop {
+    position: absolute;
+    width: 27vw;
+    left: 71vw;
+    top: 36vw;
+}
+
+.button_container {
+    position: absolute;
+    text-align: center;
+    width: 100vw;
+    top: 50vw;
+}
+
+.buy_button {
+    width: 25vw;
+}
+
 /* SECTION02 */
 
 .section02 {
     background-image: url("../svg/img_dots.png");
     background-color: #AAE6D2;
     background-size: 18vw;
-    height: 60vw;
-    display: flex;
+    height: 57vw;
 }
 
 .text02{
     position: absolute;
-    left: 50vw;
-    top: 70vw;
+    left: 40vw;
+    top: 68vw;
 }
 
 /* SECTION03 */
@@ -217,6 +305,58 @@ header {
     left: 45vw;
     top: 125vw;
     text-align: center;
+}
+
+/* EFFECTS */
+
+.title {
+    display: inline-block;
+    font-size: 5.75vw;
+    font-family: "Mulish";
+}
+
+.subtitle {
+    font-size: 1.5vw;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+.non_draggable {
+    pointer-events: none;
+}
+
+.z0{
+    z-index: 0;
+}
+.z1{
+    z-index: 1;
+}
+.z2{
+    z-index: 2;
+}
+.z3{
+    z-index: 3;
+}
+.z4{
+    z-index: 4;
+}
+.z5{
+    z-index: 5;
+}
+.z6{
+    z-index: 6;
+}
+.z7{
+    z-index: 7;
+}
+.z8{
+    z-index: 8;
+}
+.z9{
+    z-index: 9;
+}
+.z10{
+    z-index: 10;
 }
 
 /* ANIMATIONS */
@@ -310,56 +450,4 @@ header {
     100% {
         transform: translateY(-0.2vw);
     }
-}
-
-/* EFFECTS */
-
-.title {
-    display: inline-block;
-    font-size: 5.75vw;
-    font-family: "Mulish";
-}
-
-.subtitle {
-    font-size: 1.5vw;
-    font-family: monospace;
-    font-weight: bold;
-}
-
-.non_draggable {
-    pointer-events: none;
-}
-
-.z0{
-    z-index: 0;
-}
-.z1{
-    z-index: 1;
-}
-.z2{
-    z-index: 2;
-}
-.z3{
-    z-index: 3;
-}
-.z4{
-    z-index: 4;
-}
-.z5{
-    z-index: 5;
-}
-.z6{
-    z-index: 6;
-}
-.z7{
-    z-index: 7;
-}
-.z8{
-    z-index: 8;
-}
-.z9{
-    z-index: 9;
-}
-.z10{
-    z-index: 10;
 }
