@@ -37,7 +37,6 @@ body {
     display: grid;
 }
 
-
 /* HEADER */
 
 header {
@@ -147,23 +146,37 @@ header {
 
 /* BETWEEN */
 
-.marshmallow_full{
-    width: 100vw;
+.marshmallow_full01{
     position: absolute;
+    top: 25vw;
+}
+.marshmallow_full02{
+    position: absolute;
+    top: 82vw;
 }
 
 .marshmallow_top {
+    position: absolute;
+    width: 100vw;
 }
 .marshmallow_bottom{
     position: absolute;
+    width: 100vw;
+    top: 55vw;
     transform: rotate(180deg);
 }
 
 .marshmallow_front{
     position: absolute;
+    width: 100vw;
+    background-image: url("../svg/img_dots.svg");
+    background-size: 18.58vw;
+    mask-image: url("../svg/img_marshmallow_back.svg");
 }
 .marshamllow_back{
     position: absolute;
+    width: 100vw;
+    background-size: 18vw;
 }
 
 /* SECTION02 */
