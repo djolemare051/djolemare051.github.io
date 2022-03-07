@@ -204,6 +204,14 @@ header {
 
 /* SECTION03 */
 
+.section03 {
+    background-image: url("../svg/img_dots.png");
+    background-color: #FADCB4;
+    background-size: 18vw;
+    height: 55vw;
+    display: flex;
+}
+
 .text03{
     position: absolute;
     left: 45vw;
