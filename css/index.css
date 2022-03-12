@@ -560,7 +560,13 @@ footer {
     /* HEADER */
 
     .nav_icon {
-        width: 5.5vh;
+        width: 8vh;
+    }
+
+    .nav_icons_container {
+        display: flex;
+        justify-content: center;
+        gap: 8vw;
     }
 
     /* FOOTER */
@@ -665,11 +671,11 @@ footer {
     }
 
     .hair {
-        width: 23vh;
+        width: 30vh;
     }
 
     .dick01 {
-        width: 30vh;
+        width: 39vh;
     }
 
     .lollipop {
