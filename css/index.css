@@ -665,7 +665,7 @@ footer {
         display: block;
         position: absolute;
         text-align: center;
-        top: 55vh;
+        top: 63vh;
         left: 0;
         width: 100vw;
     }
@@ -686,7 +686,7 @@ footer {
         position: absolute;
         text-align: center;
         width: 100vw;
-        top: 90vh;
+        top: 83vh;
     }
 
     .buy_button {
