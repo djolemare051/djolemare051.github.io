@@ -370,6 +370,10 @@ footer {
     font-weight: bold;
 }
 
+.margin_bottom_small{
+    margin-bottom: 1vw;
+}
+
 .non_draggable {
     pointer-events: none;
 }
@@ -693,7 +697,7 @@ footer {
         display: block;
         position: absolute;
         text-align: center;
-        top: 150vh;
+        top: 140vh;
         left: 0;
         width: 100vw;
     }
@@ -708,7 +712,7 @@ footer {
         display: block;
         position: absolute;
         text-align: center;
-        top: 250vh;
+        top: 240vh;
         left: 0;
         width: 100vw;
     }
@@ -722,8 +726,12 @@ footer {
     }
     
     .subtitle {
-        font-size: 1.5vw;
+        font-size: 1.8vh;
         font-family: monospace;
         font-weight: bold;
+    }
+
+    .margin_bottom_small{
+        margin-bottom: 2vh;
     }
 }
