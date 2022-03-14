@@ -334,8 +334,9 @@ footer {
 
 .text02 {
     position: absolute;
-    left: 40vw;
-    top: 68vw;
+    left: 32vw;
+    top: 71vw;
+    text-align: center;
 }
 
 /* SECTION03 */
@@ -350,8 +351,8 @@ footer {
 
 .text03 {
     position: absolute;
-    left: 45vw;
-    top: 125vw;
+    left: 33vw;
+    top: 130vw;
     text-align: center;
 }
 
