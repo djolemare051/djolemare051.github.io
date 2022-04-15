@@ -191,6 +191,7 @@ footer {
     background-image: url("../svg/img_dots.png");
     background-size: 18.58vw;
     mask-image: url("../svg/img_marshmallow_back.svg");
+    -webkit-mask-image: url("../svg/img_marshmallow_back.svg");
 }
 
 .marshmallow_front {
