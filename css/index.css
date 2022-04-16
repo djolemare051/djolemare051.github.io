@@ -582,19 +582,19 @@ footer {
     /* BETWEEN */
 
     .marshmallow_full01 {
-        display: none;
+
     }
 
     .marshmallow_full02 {
-        display: none;
+        top: 80vh;
     }
 
     .marshmallow_full03 {
-        display: none;
+        top: 180vh;
     }
 
     .marshmallow_full04 {
-        display: none;
+        top: 420vw;
     }
 
     .logo01 {
